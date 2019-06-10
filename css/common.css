@@ -1,0 +1,173 @@
+/*        헤더*/
+header {
+    margin: 0px 15px 0 15px;
+    
+}
+
+/*        로고*/
+#headA h1 img{
+     width: 100px;
+     float: left;
+}
+
+#headA a {
+    font-size: 18px;
+    line-height: 1.2;
+    float: left;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    z-index: 2000;
+}
+#headA {
+    margin: 0 0 0 40px;
+    position: fixed;
+}
+
+/*        사이트 링크 */
+.site {
+    text-decoration: none;
+}
+
+.site:hover {
+    text-decoration: none;
+}
+
+
+
+/*        상단 메뉴*/
+.menu {
+    position: fixed;
+    padding-top: 35px;
+    width: auto;
+    top: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+.menu ul{
+    width: 650px;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+}
+.menu > ul{
+    position: relative;
+    height: 40px;
+    display: block;
+    top: 5px;
+    left: 800px;
+    z-index: 500;
+}
+.menu:after, .menu > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.menu.align-right > ul > li {
+    float: right;
+}
+.menu.align-center ul {
+    text-align: center;
+}
+.menu.align-center ul ul {
+    text-align: left;
+}
+.menu > ul > li {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.menu > ul > #menu_button {
+    display: none;
+}
+.menu ul li a {
+    display: block;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+.menu > ul > li > a {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 20px;
+    /* 메뉴 컬러 */
+    color: dimgray;
+    text-transform:uppercase;
+    -webkit-transition: uppercase;
+    -moz-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    -o-transition:color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
+.menu > ul > li.sub > a {
+    padding-right: 32px;
+}
+/* 호버시 컬러 */
+.menu > ul > li:hover > a {
+    color: orangered;
+}
+.menu li.sub::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+.menu > ul > li.sub::after {
+    right:9px;
+    top: 22px;
+    border: 6px solid transparent;
+    border-top-color: dimgray;
+}
+.menu > ul > li:hover::after {
+    border-top-color: mediumpurple;
+}
+.menu.align-right > ul > li > ul::after {
+    left: auto;
+    right: 30px;
+}
+#text_box1 img{
+    display: block;
+}
+#text_box2 img{
+    display: block;
+}
+#text_box3 img{
+    display: block;
+}
+#text_box4 img{
+    display: block;
+}
+#text_box5 img{
+    display: block;
+}
+#text_box6 img{
+    display: block;
+}
+#text_box7 img{
+    display: block;
+}
+#text_box8 img{
+    display: block;
+}
+#text_box9 img{
+    display: block;
+}
+#text_box10 img{
+    display: block;
+}
+#text_box11 img{
+    display: block;
+}
+#text_box12 img{
+    display: block;
+}
+#text_box13 img{
+    display: block;
+}
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <title>Wellive</title>
+    <script>
+    function fnMove(seq){
+        var offset = $("#" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top}, 800);
+    }
+</script>
+    <!—    css—>
+    <link rel="stylesheet" href="./css/common.css">
+<style>
+body{background-image: url('./img/메인1.jpg'), url('./img/배경.jpg'), url('./img/배경2.jpg'), url('./img/배경3.jpg'), url('./img/메인1.jpg'), url('./img/소개6.jpg'),
+     url('./img/메인1.jpg'), url('./img/배경4.jpg'), url('./img/메인1.jpg'), url('./img/배경5.jpg');
+     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+     background-size: 1000px 848.5px, 1410px 1688px, 1410px 2530px, 1410px 3368.5px, 1500px 5047.5px, 1500px 5888px, 1500px 6728px, 1500px 7569px, 1500px 8408px, 1540px 9248px;
+}
+
+</style>  
+</head>
+
+<body>
+   <!--헤더-->
+  <header>
+         <!--로고-->
+        <div id="headA">
+            <h1><img src="./img/wellive_logo.png" title="logo"></h1>
+        </div>
+        <!--메뉴 시작-->
+        <div class="menu">
+            <ul>
+                <li>
+                   <a onclick="fnMove('text_box1')">웰라이브</a>
+                </li>
+                <li>
+                    <a onclick="fnMove('text_box2')">소개</a>
+                </li>
+                <li>
+                    <a onclick="fnMove('text_box8')">서비스</a>
+                </li>
+                <li>
+                    <a onclick="fnMove('text_box13')">팀소개</a>
+                </li>
+            </ul>
+      </div>
+    </header>
+        <!-- 본문 시작 -->
+      
+        <div id='text_box1'>
+         <img src="./img/메인1.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box2">
+         <img src="./img/소개1.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box3">
+         <img src="./img/소개2.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box4">
+         <img src="./img/소개3.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box5">
+         <img src="./img/소개4.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box6">
+         <img src="./img/소개5.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box7">
+         <img src="./img/소개6.jpg" width="1511" height="840">
+       </div>
+       
+       <div id='text_box8'>
+         <img src="./img/서비스1.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box9" >
+         <img src="./img/서비스2.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box10" >
+         <img src="./img/서비스3.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box11" >
+         <img src="./img/서비스4.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box12" >
+         <img src="./img/서비스5.jpg" width="1511" height="840">
+       </div>
+       
+       <div id="text_box13">
+         <img src="./img/팀소개.jpg" width="1511" height="840">
+       </div>
+</body>
+</html>
